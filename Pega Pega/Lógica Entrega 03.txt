@@ -1,0 +1,43 @@
+após o toque do jogador com a bomba o jogo irá zerar a pontuação e uma barulho da bomba vai aparecer;
+
+local onde guarda a pontuação;
+
+se o jogador tocar em qualquer objeto sem ser a bomba, o jogador irá ganhar um ponto;
+
+
+	TOQUE
+
+- Som do objeto;
+
+- Som bomba;
+
+- Somar pontos (Objeto);
+
+- Zerar pontuação;
+
+- Aumentar velocidade;
+
+- Objeto desaparece.
+
+
+
+Objeto ---> Lista ---> []
+Pontos ---> Inteiro --> 3
+Se TOQUE ---> Pontos +1
+
+&& --> E
+|| --> OU
+
+
+if (toque em objeto normal (Item)){
+	ganha um ponto
+	barulho de coleta
+	música
+	aumentar a velocidade gradativamente
+}
+
+if(Toque em img.bomba){
+	se o objeto tocar  bomba
+	zerar pontuação
+}
+
